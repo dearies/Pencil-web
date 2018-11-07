@@ -1,0 +1,350 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.all-box p {
+    z-index: 4;
+    position: absolute;
+    color: white;
+    bottom: 10%;
+    left: 10%;
+    width: 385px;
+    font-family: segoe ui light;
+    font-weight: normal;
+    text-align: left;
+}
+
+.all-box h2 {
+    position: absolute;
+    z-index: 4;
+    color: white;
+    bottom: 20%;
+    left: 10%;
+}
+
+.all-box .box img {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+.portfolio2 .all-box {width: 80%;height: auto;overflow: hidden;display: flex;flex-flow: row wrap;padding: 0px 10%;justify-content: center;}
+
+.head .bText {
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.title-portfolio {
+    font-size: 20px;
+    color: darkorange;
+}
+
+.head {
+    margin-top: 40px;
+}
+
+.portfolio2 {
+    width: 100%;
+    height: auto;
+    font-family: segoe ui;
+    font-weight: bold;
+    text-align: center;
+}
+
+a.btn-page.btn-portfolio {
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.portfolio .bText {
+    font-size: 3rem;
+    color: #00000099;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 399px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.portfolio {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-callout.jpg');
+    background-size: cover;
+    background-position: center center;
+    font-family: segoe ui;
+    position: relative;
+}
+
+.icons .name {
+    font-size: 25px!important;
+    margin-top: 15px;
+}
+
+.icons {
+    margin-top: 30px;
+}
+
+.box .icon i {color: #1d809f;font-size: 37px;}
+
+.circle {
+    text-align: center;
+    overflow: hidden;
+}
+
+.box .icon {
+    width: 150px;
+    height: 150px;
+    background: white;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 20%;
+    height: 20%;
+    float: left;
+}
+
+.portfolio2 .box {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bText {
+    font-size: 2.5rem;
+}
+
+.title-services p:first-child {
+    color: darkorange;
+    font-size: 15px;
+}
+
+.title-services {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: segoe ui;
+    font-weight: bold;
+    color: white;
+}
+
+.services {
+    background-color: #1d809f!important;
+    width: 100%;
+    height: 80%;
+    position: relative;
+}
+
+a.btn-page.btn-about:hover {
+    background-color: black!important;
+}
+
+a.btn-page.btn-about {
+    background-color: #000000b3;
+    font-family: segoe ui;
+}
+
+
+.btn-page {
+    background: #1d809f;
+    width: 120px;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn-page:hover {
+	background: #155d74!important;
+}
+
+.title-home p {
+    font-size: 25px;
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.title-home .bText {
+    font-size: 80px;
+    color: #000000bd;
+    font-weight: bold;
+}
+
+.title-home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: auto;
+    text-align: center!important;
+    color: black;
+    font-family: segoe ui;
+}
+
+.home {
+    position: relative;
+    z-index: 1;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+}
+.btn-menu:hover {
+    background-color: #000000c9;
+}
+
+.btn-menu {
+	padding: 15px;
+	color: white;
+	background-color: #00000063;
+	font-family: segoe ui light;
+	font-weight: bold;
+	font-size: 18px;
+	width: 20px;
+	height: 20px;
+	position: fixed;
+	right: 15px;
+	top: 15px;
+	text-align: center;
+	border-radius: 10px;
+	line-height: 20px;
+	cursor: pointer;
+	z-index: 9999;
+}
+.page {
+	width: auto;
+	height: auto;
+}
+.menuleft {
+	height: 100%;
+	width: 250px;
+	background-color: #1d809f;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	z-index: 5;
+	transform: translateX(252px);
+	transition: ease 0.4s;
+	border-left: 1px solid #699aaa;
+}
+.menuleft-show {
+	transform: translateX(0px);
+	transition: 0.4s;
+}
+.title {
+	width: 100%;
+	background-color: rgba(52,58,64,.1);
+	font-family: segoe ui;
+	font-size: 20px;
+	color: white;
+	padding: 28px 20px;
+	line-height: 25px;
+}
+.catories .name {
+	color: white;
+	font-size: 15px;
+	font-family: segoe ui light;
+	padding: 20px 20px;
+	cursor: pointer;
+	width: 100%;
+}
+.catories .name:hover {
+	background: rgba(255,255,255,.2);
+}
+.home {
+	width: 100%;
+	height: 100%;
+	background-image: url('https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+.about {
+	position: relative;
+	width: 100%;
+	height: 50%;
+	background-color: white;
+}
+.title-about {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 100%;
+}
+.title-about .bText {
+	font-family: segoe ui;
+	font-size: 28px;
+	font-weight: bold;
+}
+.title-about p {
+	font-family: segoe ui light;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.zoom {
+    width: 520px;
+    height: 320px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    background-color: #00bcd48c;
+    border: 40px solid white;
+    opacity: 0;
+    transition: 0.4s;
+    
+}
+.zoom:hover {
+    opacity: 1;
+    transition: 0.4s;
+}
+.btn-top {
+	padding: 15px;
+	color: white;
+	background-color: #00000063;
+	font-family: segoe ui light;
+	font-weight: bold;
+	font-size: 18px;
+	width: 20px;
+	height: 20px;
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	text-align: center;
+	border-radius: 10px;
+	line-height: 20px;
+	text-decoration: none;
+	z-index: 9999;
+	cursor: pointer;
+}
